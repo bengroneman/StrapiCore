@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_display_quotes",
+  "info": {
+    "displayName": "Quote"
+  },
+  "options": {},
+  "attributes": {
+    "Body": {
+      "type": "richtext"
+    },
+    "Author": {
+      "type": "string"
+    }
+  }
+}

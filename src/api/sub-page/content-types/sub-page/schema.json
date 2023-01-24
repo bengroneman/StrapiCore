@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_pages",
+  "info": {
+    "singularName": "sub-page",
+    "pluralName": "sub-pages",
+    "displayName": "SubPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "strapi-server",
+  "name": "ahw",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,19 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/strapi": "^4.6.0",
-    "better-sqlite3": "7.4.6",
-    "strapi": "^3.6.11"
+    "@strapi/strapi": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/plugin-i18n": "4.6.0",
+    "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "b1a7ebc2-91ee-4853-a5bd-a782d3b813c6"
+    "uuid": "2e2ca01f-af44-4390-be16-c3b43f63f48e"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

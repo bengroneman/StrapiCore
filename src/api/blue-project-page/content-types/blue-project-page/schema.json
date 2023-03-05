@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "blue_project_pages",
+  "info": {
+    "singularName": "blue-project-page",
+    "pluralName": "blue-project-pages",
+    "displayName": "Blue Project Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "display.hero"
+    },
+    "Projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blue.project"
+    }
+  }
+}

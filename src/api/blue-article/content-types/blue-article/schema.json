@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blue_articles",
+  "info": {
+    "singularName": "blue-article",
+    "pluralName": "blue-articles",
+    "displayName": "Blue Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Body": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    }
+  }
+}

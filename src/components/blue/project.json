@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blue_projects",
+  "info": {
+    "displayName": "Project"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "OneLiner": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

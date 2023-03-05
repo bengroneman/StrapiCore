@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blue_about_pages",
+  "info": {
+    "singularName": "blue-about-page",
+    "pluralName": "blue-about-pages",
+    "displayName": "Blue About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "display.hero"
+    }
+  }
+}

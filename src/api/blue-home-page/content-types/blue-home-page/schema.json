@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "blue_home_pages",
+  "info": {
+    "singularName": "blue-home-page",
+    "pluralName": "blue-home-pages",
+    "displayName": "Blue Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "text"
+    },
+    "ShowcaseImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blue_article_pages",
+  "info": {
+    "singularName": "blue-article-page",
+    "pluralName": "blue-article-pages",
+    "displayName": "Blue Article Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "display.hero"
+    }
+  }
+}

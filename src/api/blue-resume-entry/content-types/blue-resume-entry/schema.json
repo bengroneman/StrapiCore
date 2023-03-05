@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blue_resume_entries",
+  "info": {
+    "singularName": "blue-resume-entry",
+    "pluralName": "blue-resume-entries",
+    "displayName": "Blue Resume Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

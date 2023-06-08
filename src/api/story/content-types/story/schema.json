@@ -4,7 +4,8 @@
   "info": {
     "singularName": "story",
     "pluralName": "stories",
-    "displayName": "Story"
+    "displayName": "Story",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,13 @@
     },
     "Description": {
       "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

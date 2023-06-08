@@ -1,18 +1,29 @@
 {
   "collectionName": "components_blue_projects",
   "info": {
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "OneLiner": {
+    "description": {
       "type": "text"
     },
-    "Link": {
+    "href": {
       "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
